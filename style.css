@@ -1,0 +1,35 @@
+* {
+    font-size: 1.3rem;
+    color: rgb(193, 153, 230);
+    font-weight: 600;
+}
+body {
+    box-sizing: border-box;
+    align-items: center;
+    background: rgb(195, 39, 39);
+}
+
+#value1 {
+    background: rgb(182, 156, 236);
+    border-radius: .25rem;
+    font-weight: 600;
+}
+
+#value2 {
+    background: rgb(182, 156, 236);
+    border-radius: .25rem;
+    font-weight: 600;
+}
+#operator {
+    border: solid .31rem rgb(167, 144, 14);
+    background: rgb(64, 141, 73);
+}
+#btn {
+    background: rgb(121, 210, 235);
+    color:rgb(62, 154, 32);
+}
+#result {
+    border: .3rem solid rgb(222, 66, 186);
+    color: rgb(59, 224, 169);
+    font-weight: 600;
+}

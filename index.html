@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+<form id="input">
+    value1:<input type="text" id="value1"> <br>
+    value2:<input type="text" id="value2"><br>
+    Operator: 
+    <select id="operator">
+        <option value="add">Add</option>
+        <option value="min">Subtract</option>
+        <option value="mul">Multiply</option>
+        <option value="div">Devide</option>
+    </select>
+    <br><br>
+    <button  id="btn" onclick="calc()" type="button"  >Calculate </button>
+</form>
+
+    <div id="result"></div>
+
+</body>
+  <script src="main.js"></script>
+</html>
